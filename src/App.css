@@ -1,0 +1,123 @@
+/* General styles */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-bottom: 1px solid #dee2e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.employee-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  flex: 1;
+  margin: 10px;
+}
+
+.employee-list-item {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.employee-list-item:hover {
+  background-color: #f1f1f1;
+}
+
+.employee-list-item img {
+  border-radius: 50%;
+  margin-right: 15px;
+  width: 50px;
+  height: 50px;
+}
+
+.employee-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.employee-info h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.employee-info p {
+  margin: 0;
+  color: #666;
+}
+
+.employee-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.employee-page button {
+  align-self: flex-start;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.employee-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.employee-details img {
+  border-radius: 50%;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.employee-details h2 {
+  margin: 10px 0;
+}
+
+.employee-details h3 {
+  margin: 5px 0;
+  color: #666;
+}
+
+.employee-details p {
+  margin: 5px 0;
+  color: #333;
+}
